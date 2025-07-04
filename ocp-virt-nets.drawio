@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="nBz9LH9-IEHwwVWOcd3V">
-    <mxGraphModel dx="2019" dy="1677" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4326" dy="2694" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="daVzyOdjmqYcSzeQDN5u-74" value="SAN-A Fabric" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#8A2BE2);fontStyle=1" parent="1" vertex="1">
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-74" value="Fibre Channel SAN-A Fabric" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#8A2BE2);fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1510" y="-430" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="daVzyOdjmqYcSzeQDN5u-75" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Courier New;dashed=1;dashPattern=1 4;flowAnimation=1;flowAnimationDuration=2000;strokeColor=light-dark(#000000,#808080);" parent="1" edge="1">
@@ -13,7 +13,7 @@
             <mxPoint x="-140" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="daVzyOdjmqYcSzeQDN5u-77" value="SAN-B Fabric" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#DC143C);fontStyle=1" parent="1" vertex="1">
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-77" value="Fibre Channel SAN-B Fabric" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#DC143C);fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1510" y="-340" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="daVzyOdjmqYcSzeQDN5u-78" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Courier New;dashed=1;dashPattern=1 4;flowAnimation=1;flowAnimationDuration=2000;strokeColor=light-dark(#000000,#808080);" parent="1" edge="1">
@@ -282,7 +282,7 @@
             <mxPoint x="-300" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="daVzyOdjmqYcSzeQDN5u-35" value="hba0" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#8A2BE2);fontStyle=1" parent="1" vertex="1">
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-35" value="fc-hba0" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#8A2BE2);fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-340" y="-470" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="daVzyOdjmqYcSzeQDN5u-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;fontFamily=Courier New;dashed=1;dashPattern=1 4;flowAnimation=1;jumpSize=12;endArrow=oval;endFill=1;flowAnimationDuration=2000;" parent="1" source="daVzyOdjmqYcSzeQDN5u-36" edge="1">
@@ -290,7 +290,7 @@
             <mxPoint x="-220" y="-300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="daVzyOdjmqYcSzeQDN5u-36" value="hba1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#DC143C);fontStyle=1" parent="1" vertex="1">
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-36" value="fc-hba1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Courier New;fillColor=light-dark(#FFFFFF,#DC143C);fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-260" y="-470" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
