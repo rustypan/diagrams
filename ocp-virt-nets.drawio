@@ -1,9 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="nBz9LH9-IEHwwVWOcd3V">
-    <mxGraphModel dx="2672" dy="1525" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2866" dy="2352" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-6" value="OCP PAK NPE Primary Network Set" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-690" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-630" as="sourcePoint" />
+            <mxPoint x="920" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-13" value="v1767_nsx_pak_prep_kubernetes" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-3">
+          <mxGeometry x="0.0019" y="1" relative="1" as="geometry">
+            <mxPoint x="-211" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-32" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#6a00ff;strokeColor=light-dark(#3700CC,#708090);" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="200" as="sourcePoint" />
@@ -13,6 +27,17 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-33" value="NAS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;textShadow=0;labelPosition=center;verticalLabelPosition=middle;" parent="LU3-slNKnOnuftCBF2Lh-32" vertex="1" connectable="0">
           <mxGeometry x="-0.0691" y="-1" relative="1" as="geometry">
             <mxPoint x="437" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-650" as="sourcePoint" />
+            <mxPoint x="920" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-11" value="v1667_nsx_pak_devl_openshift" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelPosition=left;verticalLabelPosition=middle;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-7">
+          <mxGeometry x="-0.0208" y="1" relative="1" as="geometry">
+            <mxPoint x="-199" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-29" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#0050ef;strokeColor=light-dark(#001DBC,#FF8C00);" parent="1" edge="1">
@@ -26,6 +51,17 @@
             <mxPoint x="437" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-670" as="sourcePoint" />
+            <mxPoint x="920" y="-670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-10" value="v1772_nsx_pak_npe_openshift_02" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelPosition=left;verticalLabelPosition=middle;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-8">
+          <mxGeometry x="-0.0472" y="3" relative="1" as="geometry">
+            <mxPoint x="-186" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-27" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#BA55D3);" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="360" as="sourcePoint" />
@@ -35,6 +71,20 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-28" value="OCP VIRT CLUSTER 2&lt;div&gt;HOST NET&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;textShadow=0;labelPosition=center;verticalLabelPosition=middle;" parent="LU3-slNKnOnuftCBF2Lh-27" vertex="1" connectable="0">
           <mxGeometry x="-0.0691" y="-1" relative="1" as="geometry">
             <mxPoint x="417" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-39" value="OCP PAK NPE Storage Network Set" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-570" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-40" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-520" as="sourcePoint" />
+            <mxPoint x="920" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-41" value="v1830_OPENSHIFT_NPE_iSCSI-A" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-40">
+          <mxGeometry x="0.0019" y="1" relative="1" as="geometry">
+            <mxPoint x="-211" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-25" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#008a00;strokeColor=light-dark(#005700,#3CB371);" parent="1" edge="1">
@@ -48,6 +98,17 @@
             <mxPoint x="417" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-42" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-540" as="sourcePoint" />
+            <mxPoint x="920" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-43" value="v1711_pak_nas" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelPosition=left;verticalLabelPosition=middle;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-42">
+          <mxGeometry x="-0.0208" y="1" relative="1" as="geometry">
+            <mxPoint x="-199" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-23" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;orthogonal=0;fillColor=#60a917;strokeColor=light-dark(#2D7600,#4682B4);" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="440" as="sourcePoint" />
@@ -57,6 +118,17 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-24" value="OCP BM CLUSTER&lt;div&gt;HOST NET&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;" parent="LU3-slNKnOnuftCBF2Lh-23" vertex="1" connectable="0">
           <mxGeometry x="-0.0691" y="-1" relative="1" as="geometry">
             <mxPoint x="427" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-44" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-560" as="sourcePoint" />
+            <mxPoint x="920" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-45" value="v1611_nsx_pak_prod_nas" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelPosition=left;verticalLabelPosition=middle;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-44">
+          <mxGeometry x="-0.0472" y="3" relative="1" as="geometry">
+            <mxPoint x="-186" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-12" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -126,6 +198,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-46" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-500" as="sourcePoint" />
+            <mxPoint x="920" y="-500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-47" value="v1831_OPENSHIFT_NPE_iSCSI-B" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-46">
+          <mxGeometry x="0.0019" y="1" relative="1" as="geometry">
+            <mxPoint x="-211" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;jumpStyle=arc;fillColor=#60a917;strokeColor=light-dark(#2D7600,#4682B4);" parent="1" source="LU3-slNKnOnuftCBF2Lh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="440" as="targetPoint" />
@@ -134,6 +217,17 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-15" value="Untagged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillOpacity=0;" parent="LU3-slNKnOnuftCBF2Lh-14" vertex="1" connectable="0">
           <mxGeometry x="-0.2272" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-48" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-480" as="sourcePoint" />
+            <mxPoint x="920" y="-480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-49" value="V1392_PAK_ADMN_BKUP_Promiscuous" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-48">
+          <mxGeometry x="0.0019" y="1" relative="1" as="geometry">
+            <mxPoint x="-211" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;jumpStyle=arc;jumpSize=12;fillColor=#008a00;strokeColor=light-dark(#005700,#3CB371);" parent="1" source="LU3-slNKnOnuftCBF2Lh-5" edge="1">
@@ -146,6 +240,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-50" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-460" as="sourcePoint" />
+            <mxPoint x="920" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-51" value="V1393_PAK_ADMN_BKUP_Isolated" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-50">
+          <mxGeometry x="0.0019" y="1" relative="1" as="geometry">
+            <mxPoint x="-211" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;jumpStyle=arc;jumpSize=12;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#BA55D3);" parent="1" source="LU3-slNKnOnuftCBF2Lh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="360" as="targetPoint" />
@@ -154,6 +259,20 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-21" value="Tagged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LU3-slNKnOnuftCBF2Lh-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2537" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-52" value="OCP PAK NPE ADM MGMT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=center;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-410" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-55" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-370" as="sourcePoint" />
+            <mxPoint x="920" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-56" value="V???_VMOTION_NETWORK" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelPosition=left;verticalLabelPosition=middle;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" connectable="0" parent="daVzyOdjmqYcSzeQDN5u-55">
+          <mxGeometry x="-0.0208" y="1" relative="1" as="geometry">
+            <mxPoint x="-199" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LU3-slNKnOnuftCBF2Lh-47" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#6a00ff;strokeColor=light-dark(#3700CC,#DC143C);" parent="1" edge="1">
@@ -187,6 +306,96 @@
         <mxCell id="LU3-slNKnOnuftCBF2Lh-45" value="Tagged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LU3-slNKnOnuftCBF2Lh-44" vertex="1" connectable="0">
           <mxGeometry x="-0.6257" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="daVzyOdjmqYcSzeQDN5u-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="-670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="daVzyOdjmqYcSzeQDN5u-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="daVzyOdjmqYcSzeQDN5u-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-64" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="-300" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-16" value="SYNERGY BLADE" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry y="30" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-29" value="ens3f4" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="520" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-30" value="ens3f5" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="600" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-18" value="ens3f0" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="40" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-19" value="ens3f1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="120" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-20" value="bond0" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-22" value="ens3f2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="280" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-23" value="ens3f3" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="360" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-28" value="bond1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="280" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-34" value="bond2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;container=0;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="520" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-35" value="hba0" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="520" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-36" value="hba1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontFamily=Fira Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BMono;" vertex="1" parent="daVzyOdjmqYcSzeQDN5u-64">
+          <mxGeometry x="600" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="-560" as="targetPoint" />
+            <mxPoint x="510" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-540" as="targetPoint" />
+            <mxPoint x="530" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="-520" as="targetPoint" />
+            <mxPoint x="550" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="-500" as="targetPoint" />
+            <mxPoint x="570" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="-480" as="targetPoint" />
+            <mxPoint x="590" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daVzyOdjmqYcSzeQDN5u-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="-460" as="targetPoint" />
+            <mxPoint x="610" y="-300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
