@@ -4,13 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P22ScsEz_DvKx6HCIlSC-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" width="600" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="FBLLdb9SgcqdFjXgm3R8-1" value="Cluster Admin" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=light-dark(#4277BB, #ffffff);labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/integrated_digital_experiences.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="679" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FBLLdb9SgcqdFjXgm3R8-2" value="Cluster repo" style="verticalLabelPosition=top;html=1;verticalAlign=bottom;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="440" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FBLLdb9SgcqdFjXgm3R8-3" value="OpenShift cluster" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="FBLLdb9SgcqdFjXgm3R8-3" value="OpenShift cluster" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;textOpacity=40;" parent="1" vertex="1">
           <mxGeometry x="400" y="280" width="400" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FBLLdb9SgcqdFjXgm3R8-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Azure_Red_Hat_OpenShift.svg;" parent="1" vertex="1">
